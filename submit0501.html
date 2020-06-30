@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="submit0501.css">
+</head>
+<body>
+   <!-- Title with instructions-->
+    <header>
+        <h1>Welcome to Paxsft Meme Generator</h1>
+        <h3>Fill out the form to start creating Memes!</h3>
+    </header>
+
+<section>
+
+ <!-- input form -->
+ <form action="#" id='memeGenerator'>
+    <label for="getUrl">Image Url</label>
+    <input type="url" name="getUrl" id="getUrl" placeholder="What's the Url for your meme image?" autofocus/>
+    <label for="textTop">Text On Top</label>
+    <input type="text" name="textTop" id="textTop" placeholder="(Optional) What text do you want at the top of the meme?"/>
+    <label for="textBottom">Text On Bottom</label>
+    <input type="text" name="textBottom" id="textBottom" placeholder="(Optional) What text do you want at the bottom of the meme?"/>
+    <input id="submit" type="submit" value="Submit"/>
+</form>
+</section>
+<div id=results class="container">
+</div>
+
+
+
+    <!--Scripts-->
+    <script src="submit0501.js"></script>
+</body>
+</html>
